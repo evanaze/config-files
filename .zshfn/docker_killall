@@ -1,0 +1,1 @@
+function docker_killall () {docker container kill $(docker ps -q)}
